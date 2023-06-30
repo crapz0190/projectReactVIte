@@ -1,0 +1,59 @@
+.navContent {
+  background-color: #0f0e0e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  transition: .5s;
+}
+
+.inactive {
+  background-color: #0f0e0e;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.navContent .linkGroup {
+  padding: 0;
+  margin-top: 150px;
+}
+
+.navContent img {
+  width: 150px;
+}
+
+.itemLink {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.navContent .linkGroup a {
+  text-decoration: none;
+  color: white;
+}
+
+.flexIconMenu a {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+.flexIconMenu img {
+  width: 150px;
+}
+
+.flexIconClose a {
+  position: absolute;
+  top: 50px;
+}
