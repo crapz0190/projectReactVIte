@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0 auto;
@@ -6,10 +9,7 @@
   list-style-type: none;
 }
 
-body{
-  background-color: aqua;
-  /* outline: 1px solid rgb(255, 61, 47); */
-  width: 100%;
-  /* padding: 0 30px; */
-
+.viewport {
+  width: 1440px;
+  margin: 0 auto;
 }

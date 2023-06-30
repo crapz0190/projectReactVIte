@@ -16,7 +16,7 @@ export function Navbar() {
     <div>
       <div className="flexIconMenu">
         <NavLink><img src={logo} alt="logo" /></NavLink>
-        <AiOutlineMenu onClick={handleClick} color="white" style={{margin:"0", cursor:"pointer", position:"absolute", top:"45", right:"30"}} size={40} />
+        <AiOutlineMenu className="delete" onClick={handleClick} color="white" style={{margin:"0", cursor:"pointer", position:"absolute", top:"45", right:"30"}} size={40} />
       </div>
 
       <nav className={nav ? "navContent" : "inactive"}>
