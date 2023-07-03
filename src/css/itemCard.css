@@ -1,9 +1,10 @@
 .cards .shade {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.404);
+  background-color: #00000067;
+  color: white;
+  display: flex;
+  align-items: end;
+  padding-left: 20px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+  font-size: 1rem;
 }

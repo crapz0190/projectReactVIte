@@ -1,21 +1,21 @@
-.footer {
+.contentFooter {
   font-family: "Josefin sans", sans-serif;
 }
 
-.footer img {
+.contentFooter img {
   display: flex;
   align-items: center;
 }
 
-.footer nav {
+.contentFooter nav {
   text-align: center;
 }
 
-.footer .linkGroup {
+.contentFooter .linkGroup {
   padding: 0;
 }
 
-.footer .linkGroup a {
+.contentFooter .linkGroup a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
@@ -31,7 +31,7 @@
 }
 
 .contentIcons .icons {
-  width: 200px;
+  width: 300px;
   display: flex;
-  gap: 20px;
+  padding: 0;
 }

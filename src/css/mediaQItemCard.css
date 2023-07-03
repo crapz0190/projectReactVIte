@@ -1,6 +1,21 @@
 /* ITEM CARD */
 
 @media screen and (min-width: 834px) and (max-width: 1920px) {
+  .cards .shade {
+    padding: 0 50px !important;
+    padding-bottom: 30px !important;
+    font-size: 2rem !important;
+    cursor: pointer;
+  }
+  .cards .shade:hover {
+    background-color: hsla(0, 0%, 71%, 0.829);
+    color: rgb(0, 0, 0);
+    transition: .5s;
+  }
+  .cardsContent .cards h3:hover {
+    color: black !important;
+    cursor: pointer;
+  }
   .flexItems {
     display: flex;
     flex-wrap: wrap;
@@ -15,14 +30,7 @@
   .flexItems .cards img {
     object-fit: contain;
   }
-  .cards .mediaQuerie {
-    top: 290px;
-    width: 170px !important;
-    padding-top: 60px;
-    margin-left: 20px;
-    font-size: 1.6rem !important;
-  }
-  .cardsContent:nth-child(4) .mediaQuerie {
-    padding-right: 40px !important;
+  .cardsContent:nth-child(4) .shade {
+    padding-left: 70px !important;
   }
 }
