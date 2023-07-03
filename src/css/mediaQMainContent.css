@@ -1,0 +1,51 @@
+@media screen and (min-width: 912px) and (max-width: 1920px) {
+  .sectionMainFirst {
+    position: relative;
+  }
+  .sectionMainFirst img {
+    width: 800px !important;
+  }
+  .textContent {
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    position: absolute;
+    bottom: -100px;
+    right: 0px;
+    padding-left: 100px !important;
+  }
+  .textContent h2 {
+    width: 100%;
+    margin-top: 100px;
+    text-align: start;
+    font-size: 3rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 3px !important;
+  }
+  .textContent p {
+    text-align: start;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-family: "Alata", sans-serif;
+  }
+  .sectionMainSecond {
+    margin-top: 190px !important;
+    margin-bottom: 100px;
+    position: relative;
+  }
+  .sectionMainSecond h2 {
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-size: 3rem !important;
+  }
+  .sectionMainSecond button {
+    position: absolute;
+    top: 30px;
+    left: 1140px !important;
+    width: 180px !important;
+    height: 50px !important;
+    font-size: 1.3rem;
+    font-weight: 700 !important;
+  }
+}

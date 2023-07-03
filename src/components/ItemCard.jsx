@@ -1,12 +1,20 @@
+import "../css/mediaQItemCard.css";
+import "../css/itemCard.css"
+
 export function ItemCard({ info }) {
   return(
-    <div>
+    <div className="flexItems">
        {
         info.map((item) => (
-          <div key={item.id}>
-            <section className="position-relative">
-              <img style={{width:"100%", height:"100px", objectFit:"cover", marginTop:"20px"}} src={item.imageMobile} alt={item.name} />         
-              <h3 className="position-absolute bottom-0 px-3 mb-3" style={{fontFamily:"Alata, sans serif", color:"#e3eaf0f6", paddingTop:"70px", width:"150px", height:"100%", fontSize:"1.3rem"}}>{item.name}</h3>
+          <div className="cardsContent" key={item.id}>
+            <section className="cards position-relative">
+              <div className="shade"></div>
+              <picture>
+                <source srcSet={item.imageMobile} media="(max-width: 833px)" />
+                <source srcSet={item.imageDesktop} media="(min-width: 834px)" />
+                <img style={{width:"100%", display:"block", marginTop:"20px"}} src={item.imageMobile} alt={item.name} />         
+              </picture>
+              <h3 className="mediaQuerie position-absolute bottom-0 px-3 mb-3" style={{fontFamily:"Josefin Sans, sans serif", color:"#e3eaf0f6", width:"150px", fontSize:"1.3rem"}}>{item.name}</h3>
             </section>
           </div>
         ))

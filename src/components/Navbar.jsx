@@ -1,8 +1,9 @@
+import "../css/navbar.css";
+import "../css/mediaQNavbar.css";
+import logo from "../../public/images/logo.svg";
 import { NavLink } from "react-router-dom";
-import { AiOutlineMenu } from "react-icons/ai"
-import { AiOutlineClose } from "react-icons/ai"
-import "../css/Navbar.css";
-import logo from "../images/logo.svg"
+import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
 export function Navbar() {
@@ -16,13 +17,13 @@ export function Navbar() {
     <div>
       <div className="flexIconMenu">
         <NavLink><img src={logo} alt="logo" /></NavLink>
-        <AiOutlineMenu className="delete" onClick={handleClick} color="white" style={{margin:"0", cursor:"pointer", position:"absolute", top:"45", right:"30"}} size={40} />
+        <AiOutlineMenu className="menuSize delete" onClick={handleClick} color="white" style={{margin:"0", cursor:"pointer", position:"absolute", top:"45", right:"30"}} />
       </div>
 
       <nav className={nav ? "navContent" : "inactive"}>
         <div className="flexIconClose">
           <NavLink><img src={logo} alt="logo" /></NavLink>
-          <AiOutlineClose onClick={closeMenu} color="white" style={{margin:"0px", cursor:"pointer", position:"absolute", top:"45", right:"30"}} size={40} />
+          <AiOutlineClose className="closeSize" onClick={closeMenu} color="white" style={{margin:"0px", cursor:"pointer", position:"absolute", top:"45", right:"30"}} />
         </div>
         <ul className="linkGroup">
           <li className="itemLink"><NavLink to="/category/about">About</NavLink></li>

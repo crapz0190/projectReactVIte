@@ -1,0 +1,28 @@
+/* ITEM CARD */
+
+@media screen and (min-width: 834px) and (max-width: 1920px) {
+  .flexItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px; 
+  }
+  .cards {
+    position: relative;
+    width: 100%;
+  }
+  .flexItems .cards img {
+    object-fit: contain;
+  }
+  .cards .mediaQuerie {
+    top: 290px;
+    width: 170px !important;
+    padding-top: 60px;
+    margin-left: 20px;
+    font-size: 1.6rem !important;
+  }
+  .cardsContent:nth-child(4) .mediaQuerie {
+    padding-right: 40px !important;
+  }
+}

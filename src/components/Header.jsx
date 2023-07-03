@@ -1,8 +1,8 @@
+import "../css/header.css";
+import "../css/mediaQHeader.css";
 import { Navbar } from "./Navbar";
-import { NavLink } from "react-router-dom";
-import "../css/header.css"
-import imageMobile from "../images/mobile/image-hero.jpg"
-import imageDesktop from "../images/desktop/image-hero.jpg"
+import imageMobile from "../../public/images/mobile/image-hero.jpg"
+import imageDesktop from "../../public/images/desktop/image-hero.jpg"
 
 export function Header() {
   return(

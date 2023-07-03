@@ -1,0 +1,70 @@
+/* NAVBAR */
+
+@media screen and (min-width: 600px) and (max-width: 912px) {
+  .navContent .linkGroup {
+    margin-top: 250px;
+  }
+  .menuSize{
+    width: 60px;
+    height: 60px;
+  }
+  .closeSize{
+    width: 60px;
+    height: 60px;
+  }
+  .flexIconMenu img {
+    width: 250px;
+  }
+  .flexIconClose img {
+    width: 250px;
+  }
+  .linkGroup {
+    text-align: center;
+  }
+  .linkGroup li {
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+}
+
+
+@media screen and (min-width: 912px) and (max-width: 1920px) {
+  .flexIconMenu a {
+    left: 130px;
+  }
+
+  .flexIconMenu img {
+    width: 180px;
+  }
+
+  .flexIconMenu .delete {
+    display: none;
+  }
+  .inactive {
+    background-color: #0f0e0e00;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .flexIconClose {
+    display: none;
+  }
+
+  .linkGroup {
+    width: 500px;
+    display: flex;
+    margin-top: 5px;
+    margin-right: 100px;
+  }
+  .linkGroup li {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  .linkGroup a {
+    text-decoration: none;
+    color: white;
+  }
+}

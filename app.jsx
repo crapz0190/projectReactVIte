@@ -18,7 +18,9 @@ export function App() {
         </Routes>
       </BrowserRouter>
       <MainContent />
-      <Footer />
+      <BrowserRouter>
+        <Footer />
+      </BrowserRouter>
     </div>
   )
 }
